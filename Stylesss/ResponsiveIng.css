@@ -1,0 +1,27 @@
+@import url("./universal-Selector.css");
+@import url("./Necessary.css");
+@import url("../documentation.css");
+@import url("../Styles.css");
+
+
+.img-inside-div {
+  height: 950px;
+  width: 100%; 
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  color: whitesmoke;
+}
+.resp-img-in-div {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+.resp-img-out-div {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}

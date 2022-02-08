@@ -1,0 +1,58 @@
+@import url("./universal-Selector.css");
+@import url("./Necessary.css");
+@import url("../documentation.css");
+@import url("../Styles.css");
+  
+  .Drawer-Box{
+     display: flex;
+     max-height: 500px;
+     margin: 80px auto;
+     width: 900px;
+     border-radius: 5px;
+     background-color: var(--Secondry-backgroundColor);
+     box-shadow: 3px 4px 8px 4px rgba(224, 224, 224, 0.2), 4px 6px 20px 5px rgba(255, 253, 253, 0.19)
+  }
+  
+  .Drawer-Header{
+     display: flex;
+     background-color: var(--primary-color);
+     color: var(--secondry-color);
+  }
+  .drawer-btn{
+     border: none;
+     padding: 10px 20px;
+     background-color: var(--primary-color);
+     color: var(--secondry-color);
+     cursor: pointer;
+  }
+  
+  .asideAndMain{
+     display: flex;
+     flex-direction: column;
+     overflow: auto;
+     max-height: 490px;
+     border: 2px solid var(--primary-backgroundColor);
+  }
+  .Drawer-Side-Link{
+     font-weight: 900;
+     display: flex;
+     width: 200px; 
+  }
+  .Drawer-Side-Link:hover{
+     text-decoration: none;
+     color: black;
+     font-weight: 900;
+     display: flex;
+     width: 200px; 
+  }
+  .Drawer-List{
+     padding: 10px 8px;
+     border-radius: 5px;
+  }
+  .Drawer-List:hover{
+    background-color: rgb(223, 223, 223);
+  }
+  .Drawer-Ul{
+    display: flex;
+    flex-direction: column;
+  }

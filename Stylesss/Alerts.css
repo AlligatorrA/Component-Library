@@ -1,0 +1,43 @@
+@import url("./universal-Selector.css");
+@import url("./Necessary.css");
+@import url("../documentation.css");
+@import url("../Styles.css");
+
+.Alerts {
+  width: 500px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.Primary-Alert {
+  background-color: #7fd2e6;
+  color: #29438b;
+}
+
+.Secondry-Alert {
+  background-color: #eaeaec;
+  color: #696b79;
+}
+
+.Success-Alert {
+  background-color: #84f1c9;
+  color: #1b7052;
+}
+
+.Warning-Alert {
+  background-color: #ffe7c5;
+  color: #ff9204;
+}
+
+.Danger-Alert {
+  background-color: #fcc5c5;
+  color: #dc3545;
+}
+.info-Alert {
+  background-color: #cff4fc;
+  color: #00c8f5;
+}
+.fa-times {
+  text-align: right;
+}

@@ -1,0 +1,135 @@
+@import url("./universal-Selector.css");
+@import url("./Necessary.css");
+@import url("../documentation.css");
+@import url("../Styles.css");
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+.background-img{
+    background-image: url("https://picsum.photos/id/1/300/200");
+}
+img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: contain;
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 1px 1px  rgba(44, 39, 39, 0.1);
+    border: 1px solid var(--primary-textColor);
+}
+.paragraph{
+    margin: 15px 0px;
+}
+.Card-footer{
+    width: 300px;
+    height: 55px;
+    display: flex;
+    justify-content:space-around;
+    padding: auto;
+    
+}
+.flex-Change{
+    justify-content: flex-start;
+}
+.flex-Change2{
+    justify-content: flex-end;
+}
+.btn-txt-colr{
+    color: blue;
+    margin: 0 3px;
+}
+.Card-button{
+    border: none;
+    background-color: white;
+    padding: 10px 8px;
+    border-radius: 5px;
+    transition: 0.40s;
+}
+.Card-button:hover{
+    border: none;
+    background-color: rgb(234, 238, 240);
+    color :var(--primary-color)
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.icons:focus{
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    color: var(--primary-textColor);
+}
+.like:focus{
+    color: rgb(243, 7, 7);
+}
+.btn-primary:focus{
+    background-color: rgba(0, 0, 255, 0.171);
+    border-radius: 5px;
+}
+.main-Body:hover{
+    background-color: rgb(225, 225, 225);
+    transition: 0.5s;
+}
+.container-2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 1px 1px  rgba(0, 0, 0, 0.1);
+    height: 145px;
+
+}
+.main-Body2{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 6rem;
+    width: 300px;
+}
+.main-Body2:hover{
+    background-color: rgb(225, 225, 225);
+    transition: 0.5s;
+}
+.ImageDiv{
+    background-image: url("https://picsum.photos/id/1/300/200");
+    height: 100%;
+    width: 6rem;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    fill: firebrick;
+}
+.title-Div{
+    margin: 20px 0px;
+}
+
+.backgroundImage{
+    background-image: url("https://picsum.photos/id/1/300/200");
+    height: 200px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

@@ -1,0 +1,57 @@
+@import url("./universal-Selector.css");
+@import url("./Necessary.css");
+@import url("../documentation.css");
+@import url("../Styles.css");
+
+.primary-btn{
+    background-color:var(--primary-color);
+    color: white;
+}
+.primary-btn:hover{
+    background-color:var(--primary-textColor);
+    color: var(--primary-backgroundColor);
+}
+.Secondry-btn{
+    background-color:var(--primary-textColor);
+    color: white;
+}
+.Secondry-btn:hover{
+    background-color:var(--primary-color);
+    color: white;
+}
+.Success-btn{
+    background-color:green;
+    color: white;
+}
+.Success-btn:hover{
+    background-color:var(--primary-textColor);
+    color: var(--primary-backgroundColor);
+}
+.Danger-btn{
+    background-color:red;
+    color: white;
+}
+.Danger-btn:hover{
+    background-color:var(--primary-textColor);
+    color: var(--primary-backgroundColor);
+}
+.Warning-btn{
+    background-color:yellow;
+    color: black;
+}
+.Warning-btn:hover{
+    background-color:var(--primary-textColor);
+    color: var(--primary-backgroundColor);
+}
+.Info-btn{
+    background-color:rgb(60, 195, 248);
+    color: black;
+}
+.Info-btn:hover{
+    background-color:var(--primary-textColor);
+    color: var(--primary-backgroundColor);
+}
+.disabled-btn{
+    background-color:lightgray;
+    color: white;
+}

@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 3px;
+  display: flex;
+}
+button {
+  border: none;
+  background-color: aliceblue;
+}
+input {
+  border: none white;
+}
+::placeholder {
+  text-align: center;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: 5px 10px;
+  min-width: 270px;
+}
+h1 {
+  padding: 8px;
+  color: aliceblue;
+}
+h2 {
+  padding: 8px;
+}
+
+main {
+  padding: 0 15px;
+}
+::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+  /* background: rgb(6, 7, 6);  */
+  background: var(--primary-backgroundColor); 
+}
+::-webkit-scrollbar-thumb {
+   /* background-color: blue;  */
+  background-color: var(--primary-color); 
+  border-radius: 10px; 
+}

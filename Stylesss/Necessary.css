@@ -1,0 +1,72 @@
+.btn {
+  border-radius: 5px;
+  padding: 8px 14px;
+  /* margin: 20px; */
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.Overflow-box{
+  overflow: scroll;
+  overflow-x: hidden;
+  
+}
+.Primary-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.Spacer {
+  width: 100%;
+  height: 20px;
+}
+.alert {
+  border: 1px solid black transparent;
+  border-radius: 5px;
+}
+.aria-hidden {
+  display: none;
+}
+.fas {
+  padding: 0 5px 0 0;
+  color: rgb(114, 112, 112);
+  cursor: pointer;
+}
+.fab{
+  padding: 0 5px 0 20px;
+  color: rgb(255, 255, 255);
+  cursor: pointer; 
+
+}
+.marginLeft{
+   margin-left: auto;
+}
+.active{
+  border-bottom: 3px solid var(--primary-color);
+}
+.active:focus{
+  color: var(--primary-color);
+  background-color: red;
+}
+.fa-bars{
+  color: var(--primary-backgroundColor);
+}
+.bd-colr{
+  border: 2px solid var(--primary-textColor);
+  box-shadow: 3px 4px 8px 4px rgba(224, 224, 224, 0.2), 4px 6px 20px 5px rgba(255, 253, 253, 0.19)
+}
+.top-arrow{
+position: absolute;
+bottom: 9rem;
+right: 2rem;
+}
+.starter-header{
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Callie Chalk Font", sans-serif;
+}

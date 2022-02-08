@@ -1,0 +1,23 @@
+@import url("../documentation.css");
+@import url("../Styles.css"); 
+
+.toast-add{
+  color: rgb(0, 0, 0);
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: violet;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-weight: 800;
+}
+/* .toast-added{
+  max-width: 200px;
+  position: absolute;
+  top: 0;
+  color: white;
+  background-color: rgb(10, 231, 95);
+  padding: 1rem;
+  border-radius: 5px;
+}
+  /* display: none; */
