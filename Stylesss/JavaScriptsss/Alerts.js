@@ -1,6 +1,9 @@
-const faTimes = document.querySelectorAll(".fa-times")
-const Alerts = document.querySelector(".Alerts")
+const Close = document.querySelector(".cut");
+const Alerts = document.getElementById("close-Alert")
 
-faTimes.addEventListener("click", dismissFunc = () =>{
-    Alerts.style.display = "none"
-})
+
+Close.addEventListener("click", ()=>{
+
+        Alerts.style.display = "none";
+     
+  })

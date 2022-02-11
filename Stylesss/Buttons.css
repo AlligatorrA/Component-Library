@@ -29,7 +29,7 @@
 }
 .Danger-btn{
     background-color:red;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .Danger-btn:hover{
     background-color:var(--primary-textColor);
@@ -53,5 +53,13 @@
 }
 .disabled-btn{
     background-color:lightgray;
+    color: var(--primary-backgroundColor);
+}
+.Outline-btn{
+    background-color:var(--primary-textColor);
+    color: var(--primary-backgroundColor);
+}
+.Outline-btn:hover{
+    background-color:var(--primary-color);
     color: white;
 }

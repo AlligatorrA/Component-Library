@@ -13,26 +13,21 @@
 <body>
     <div class="main-Container">
         <header class="homePage-head hero-header">
+
             <a href="/"><img class="Sq-Image-class hzt-img" src="/Imagess/dark_phillips.jpg" alt=""></a>
+            <a id="nav-btn" class="marginLeft round-Av sm-size-img bd-colr Primary-Container aria-hidden nav-arrow "
+                href="#"><i class="fa-solid fa-bars"></i></a>
             <nav class="hero-header">
                 <ul class="nav-ul">
                     <li class="nav-li"><a class="Pg-links font-Color" href="/">Home</a> </li>
                     <li class="nav-li active"><a class="Pg-links font-Color"
                             href="/documentation.html">Documentation</a> </li>
-                    <li class="nav-li"><a class="Pg-links font-Color" href="">Github</a> </li>
+                    <li class="nav-li"><a class="Pg-links font-Color"
+                            href="https://github.com/AlligatorrA/Component-Library.git">Github</a> </li>
                 </ul>
             </nav>
-            <ul class="nav-ul marginLeft ">
 
-                <li class="nav-li aria-hidden toogle-nav-Btn"><i class="fas fa-bars"></i></li>
-            </ul>
         </header>
-        <nav class="Dropdown-Nav">
-            <li class=" Dropdown-NavLi"><a class="Pg-links" href="/">Home</a> </li>
-            <li class=" Dropdown-NavLi"><a class="Pg-links active" href="/documentation.html">Documentation</a> </li>
-            <li class=" Dropdown-NavLi"><a class="Pg-links" href="">Github</a> </li>
-
-        </nav>
         <aside class="Documentation-aside AsideClass">
             <div class="starter-Component">
                 <h2>Get Started</h2>
@@ -63,21 +58,92 @@
                     <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
                             href="/Index-Pagess/Navigation.html">Navigation</a> </li>
                     <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
+                            href="/Index-Pagess/Forms.html">Forms</a> </li>
+                    <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
                             href="/Index-Pagess/ResponsiveImg.html">Responsive-Images</a> </li>
                 </ul>
             </nav>
         </aside>
         <main class="Documentation-main">
-            <header  id="top-header">
+            <header id="top-header">
                 <button class="drawer-btn aria-hidden"><i class="fas fa-chevron-left"></i> </button>
             </header>
+            <h1>Input</h1>
+            <p>There are various typees of Input like <b>text, email, date, calander, checkbox etc...</b></p>
+            <h2>Example of Input Type</h2>
+
             <div class="InputBody">
-                <textarea class="input-box" type="text"></textarea>
-                <input class="inpot-box" type="text" placeholder="john deo">
-                <input class="inpot-box input-email" type="email" placeholder="johndeo@email.com">
-                <input class="inpot-box-2" type="range" placeholder="john deo">
-                <input class="inpot-box-2" type="checkbox" placeholder="john deo">
+                <h3>This is Example of Textarea</h3>
+                <textarea name="" id="" cols="70" placeholder="Enter your Message" rows="10"></textarea>
             </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522InputBody%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520Example%2520of%2520Textarea%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520name%253D%2522%2522%2520id%253D%2522%2522%2520cols%253D%252270%2522%2520placeholder%253D%2522Enter%2520your%2520Message%2522%2520rows%253D%252210%2522%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 1024px; height: 283px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="InputBody">
+                <h3>This is Example of Input with type <b>text</b></h3>
+                <input class="input-box" type="text" placeholder="john deo">
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522InputBody%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520Example%2520of%2520Input%2520with%2520type%2520%253Cb%253Etext%253C%252Fb%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522john%2520deo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 794px; height: 265px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="InputBody">
+                <h3>This is Example of Input with type <b>number</b></h3>
+                <input class="input-box" type="number" placeholder="5000000">
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522InputBody%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520Example%2520of%2520Input%2520with%2520type%2520%253Cb%253Enumber%253C%252Fb%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522number%2522%2520placeholder%253D%25225000000%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 803px; height: 265px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="InputBody">
+                <h3>This is Example of Input with type <b>datetime</b></h3>
+                <input class="input-box" type="datetime" placeholder="">
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522InputBody%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520Example%2520of%2520Input%2520with%2520type%2520%253Cb%253Edatetime%253C%252Fb%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522datetime%2522%2520placeholder%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 786px; height: 265px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="InputBody">
+                <h3>This is Example of Input with type <b>email</b></h3>
+                <input class="input-box input-email" type="email" placeholder="johndeo@email.com">
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522InputBody%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520Example%2520of%2520Input%2520with%2520type%2520%253Cb%253Eemail%253C%252Fb%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2520input-email%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522johndeo%2540email.com%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 980px; height: 265px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="InputBody">
+                <h3>This is Example of Input with type <b>Input Range</b></h3>
+                <input class="input-box" type="range" placeholder="john deo">
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522InputBody%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520Example%2520of%2520Input%2520with%2520type%2520%253Cb%253EInput%2520Range%253C%252Fb%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522range%2522%2520placeholder%253D%2522john%2520deo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 812px; height: 265px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="InputBody">
+                <h3>This is Example of Input with type <b>Input checkbox</b></h3>
+                <input class="input-box-checkbox" type="checkbox" placeholder="john deo">
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522InputBody%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520Example%2520of%2520Input%2520with%2520type%2520%253Cb%253EInput%2520checkbox%253C%252Fb%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box-checkbox%2522%2520type%253D%2522checkbox%2522%2520placeholder%253D%2522john%2520deo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 904px; height: 265px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="InputBody">
+                <h3>This is Example of disabled Input with type <b>Disabled Input </b></h3>
+                <input class="input-box" type="text" disabled placeholder="john deo">
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522InputBody%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520Example%2520of%2520disabled%2520Input%2520with%2520type%2520%253Cb%253EDisabled%2520Input%2520%253C%252Fb%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520disabled%2520placeholder%253D%2522john%2520deo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 922px; height: 265px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
         </main>
         <a class="round-Av sm-size-img bd-colr Primary-Container top-arrow" href="#top-header">&#8682;
         </a>

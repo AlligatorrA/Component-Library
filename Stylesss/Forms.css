@@ -1,0 +1,9 @@
+.Form{
+    background-image: linear-gradient(to left, rgb(142, 226, 222),lawngreen );
+     text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding-top: 1rem;
+}

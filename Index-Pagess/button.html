@@ -13,26 +13,21 @@
 <body>
     <div class="main-Container">
         <header class="homePage-head hero-header">
+
             <a href="/"><img class="Sq-Image-class hzt-img" src="/Imagess/dark_phillips.jpg" alt=""></a>
+            <a id="nav-btn" class="marginLeft round-Av sm-size-img bd-colr Primary-Container aria-hidden nav-arrow "
+                href="#"><i class="fa-solid fa-bars"></i></a>
             <nav class="hero-header">
                 <ul class="nav-ul">
                     <li class="nav-li"><a class="Pg-links font-Color" href="/">Home</a> </li>
                     <li class="nav-li active"><a class="Pg-links font-Color"
                             href="/documentation.html">Documentation</a> </li>
-                    <li class="nav-li"><a class="Pg-links font-Color" href="">Github</a> </li>
+                    <li class="nav-li"><a class="Pg-links font-Color"
+                            href="https://github.com/AlligatorrA/Component-Library.git">Github</a> </li>
                 </ul>
             </nav>
-            <ul class="nav-ul marginLeft ">
 
-                <li class="nav-li aria-hidden toogle-nav-Btn"><i class="fas fa-bars"></i></li>
-            </ul>
         </header>
-        <nav class="Dropdown-Nav">
-            <li class=" Dropdown-NavLi"><a class="Pg-links" href="/">Home</a> </li>
-            <li class=" Dropdown-NavLi"><a class="Pg-links active" href="/documentation.html">Documentation</a> </li>
-            <li class=" Dropdown-NavLi"><a class="Pg-links" href="">Github</a> </li>
-
-        </nav>
         <aside class="Documentation-aside AsideClass">
             <div class="starter-Component">
                 <h2>Get Started</h2>
@@ -61,6 +56,8 @@
                             href="/Index-Pagess/Input.html">Input</a> </li>
                     <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
                             href="/Index-Pagess/Navigation.html">Navigation</a> </li>
+                            <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
+                                href="/Index-Pagess/Forms.html">Forms</a> </li>
                     <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
                             href="/Index-Pagess/ResponsiveImg.html">Responsive-Images</a> </li>
                 </ul>
@@ -71,23 +68,61 @@
                 <button class="drawer-btn aria-hidden"><i class="fas fa-chevron-left"></i> </button>
             </header>
             <div class="Container">
+                <h1>Buttons</h1>
+                <p>We generally usse button to get something done. Here are few types of button you can use to beautify
+                    your UI</p>
                 <div class="Primary-Container Overflow-box">
-
+                    <h2>Simple Buttons</h2>
+                    <p>This is the Example of simple buttons with different type. to use this just add <b>'btn'</b>
+                        class and choose the type of button you want</p>
                     <button class="btn primary-btn">primary</button>
                     <button class="btn Secondry-btn">Secondry</button>
                     <button type="submit" class="btn Success-btn">Success</button>
                     <button class="btn Danger-btn">Danger</button>
                     <button class="btn Warning-btn">Warning</button>
                     <button class="btn Info-btn">Info</button>
-                    <button disabled="disabled" class="btn disabled-btn">Disabled</button>
                 </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253Eprimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520Secondry-btn%2522%253ESecondry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522submit%2522%2520class%253D%2522btn%2520Success-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520Danger-btn%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520Warning-btn%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520Info-btn%2522%253EInfo%253C%252Fbutton%253E"
+                    style="width: 846px; height: 302px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h3>Example of disabled-btn</h3>
+                <h2>Simple Buttons</h2>
+                <p>This is the Example of Disabled buttons with different type. to use this just add <b>'btn'</b> class
+                    and <b>'disabled-btn'</b> to make it Disable.</p>
+                <button disabled="disabled" class="btn disabled-btn">Disabled</button>
                 <div class="Primary-Container">
-                    <h3> Toogle Btn</h3>
-                    <label>
-                        <input type="checkbox" name="" class="toogle-Btn" id="">
-                        <span></span>
-                    </label>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520disabled%253D%2522disabled%2522%2520class%253D%2522btn%2520disabled-btn%2522%253EDisabled%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Primary-Container%2522%253E"
+                        style="width: 744px; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
+                <div class="Primary-Container Overflow-box">
+                    <h2>Outline Buttons</h2>
+                    <p>This is the Example of Outline buttons with different type. to use this just add <b>'btn'</b>
+                        class and choose the type of button you want</p>
+                    <button class="btn Outline-btn ">primary</button>
+                    <button class="btn  Outline-btn Secondry-btn">Secondry</button>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520Outline-btn%2520%2522%253Eprimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520Outline-btn%2520Secondry-btn%2522%253ESecondry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                    style="width: 838px; height: 249px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <!-- <h2>checkbox type</h2>
+                <p>This is the Example of checkbox buttons  to use this just add <b>'btn'</b> class
+                    and choose the type of button you want</p>
+                <label for="checkbox"> checkbox
+                    <input type="checkbox" name="" class="toogle-Btn" id="checkbox">
+
+                </label>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox%2522%2520%253E%2520checkbox%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520class%253D%2522toogle-Btn%2522%2520id%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E"
+                    style="width: 896px; height: 283px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe> -->
             </div>
         </main>
         <a class="round-Av sm-size-img bd-colr Primary-Container top-arrow" href="#top-header">&#8682;

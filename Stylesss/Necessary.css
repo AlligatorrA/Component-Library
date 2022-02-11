@@ -9,6 +9,8 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin: 10px 0;
+  padding: 10px;
 }
 .Overflow-box{
   overflow: scroll;
@@ -20,6 +22,8 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px 20;
 }
 .Spacer {
   width: 100%;
@@ -28,9 +32,15 @@
 .alert {
   border: 1px solid black transparent;
   border-radius: 5px;
-}
+} 
 .aria-hidden {
   display: none;
+}
+@media screen and (max-width: 800px) {
+  .aria-hidden 
+  {
+    display: flex;
+  }
 }
 .fas {
   padding: 0 5px 0 0;
@@ -51,7 +61,6 @@
 }
 .active:focus{
   color: var(--primary-color);
-  background-color: red;
 }
 .fa-bars{
   color: var(--primary-backgroundColor);
@@ -65,8 +74,18 @@ position: absolute;
 bottom: 9rem;
 right: 2rem;
 }
+.aside-arrow{
+position: absolute;
+top: 9rem;
+right: 2rem;
+}
+.nav-arrow{
+position: absolute;
+top: 1rem;
+right: 2rem;
+}
 .starter-header{
-  font-size: 3rem;
+  font-size: 2em;
   font-weight: 900;
   font-family: "Callie Chalk Font", sans-serif;
 }

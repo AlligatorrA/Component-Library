@@ -14,26 +14,21 @@
 <body>
     <div class="main-Container">
         <header class="homePage-head hero-header">
+
             <a href="/"><img class="Sq-Image-class hzt-img" src="/Imagess/dark_phillips.jpg" alt=""></a>
+            <a id="nav-btn" class="marginLeft round-Av sm-size-img bd-colr Primary-Container aria-hidden nav-arrow "
+                href="#"><i class="fa-solid fa-bars"></i></a>
             <nav class="hero-header">
                 <ul class="nav-ul">
                     <li class="nav-li"><a class="Pg-links font-Color" href="/">Home</a> </li>
                     <li class="nav-li active"><a class="Pg-links font-Color"
                             href="/documentation.html">Documentation</a> </li>
-                    <li class="nav-li"><a class="Pg-links font-Color" href="">Github</a> </li>
+                    <li class="nav-li"><a class="Pg-links font-Color"
+                            href="https://github.com/AlligatorrA/Component-Library.git">Github</a> </li>
                 </ul>
             </nav>
-            <ul class="nav-ul marginLeft ">
 
-                <li class="nav-li aria-hidden toogle-nav-Btn"><i class="fas fa-bars"></i></li>
-            </ul>
         </header>
-        <nav class="Dropdown-Nav">
-            <li class=" Dropdown-NavLi"><a class="Pg-links" href="/">Home</a> </li>
-            <li class=" Dropdown-NavLi"><a class="Pg-links" href="/documentation.html">Documentation</a> </li>
-            <li class=" Dropdown-NavLi"><a class="Pg-links" href="">Github</a> </li>
-
-        </nav>
         <aside class="Documentation-aside AsideClass">
             <div class="starter-Component">
                 <h2>Get Started</h2>
@@ -62,7 +57,8 @@
                             href="/Index-Pagess/Input.html">Input</a> </li>
                     <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
                             href="/Index-Pagess/Navigation.html">Navigation</a> </li>
-
+                            <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
+                                href="/Index-Pagess/Forms.html">Forms</a> </li>
                     <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
                             href="/Index-Pagess/ResponsiveImg.html">Responsive-Images</a> </li>
                 </ul>
@@ -72,26 +68,57 @@
             <header id="top-header">
                 <button class="drawer-btn aria-hidden"><i class="fas fa-chevron-left"></i> </button>
             </header>
-            <div class="Container">
+            <h1>Alerts</h1>
+            <p>We use Alert to draw the attention of user when we need to giv the Necessary information.</p>
+            <div class="Container bd-colr">
                 <h2>Example of Alert </h2>
+                <p>Alert can be of various types few of them are <b>Primary-Alert, Secondry-Alert, Success-Alert,
+                        Warning-Alert, Danger-Alert & info-Alert</b></p>
+                <p>to use these Alerts initiate your class with <b>'Alerts'</b> and then use Alert according to your
+                    need like <b>Primary-Alert, Secondry-Alert....</b> (eg. class="Alerts Primary-Alert")</p>
+                <p>You can even copy-Paste the html Given below in code snippet.</p>
                 <div class="Primary-Alert Alerts"> This is Primary Alerts...!<i class="fas fa-times"></i> </div>
                 <div class="Secondry-Alert Alerts">This is Secondry Alerts...!<i class="fas fa-times"></i></div>
-                <div class="Success-Alert Alerts"><span class="Success-Alert"><i class="fas fa-check-circle Success-Alert"></i>This is Success
+                <div class="Success-Alert Alerts"><span class="Success-Alert"><i
+                            class="fas fa-check-circle Success-Alert"></i>This is Success
                         Alerts...!</span><i class="fas fa-times"></i>
                 </div>
-                <div class="Warning-Alert Alerts"><span class=" Warning-Alert"><i class="fas fa-exclamation-triangle Warning-Alert"></i>This is
+                <div class="Warning-Alert Alerts"><span class=" Warning-Alert"><i
+                            class="fas fa-exclamation-triangle Warning-Alert"></i>This is
                         Warning
                         Alerts...!</span><i class="fas fa-times"></i></div>
-                <div class="Danger-Alert Alerts"><span class="Danger-Alert"><i class="fas fa-skull-crossbones Danger-Alert"></i>This is
+                <div class="Danger-Alert Alerts"><span class="Danger-Alert"><i
+                            class="fas fa-skull-crossbones Danger-Alert"></i>This is
                         Danger Alerts...!
                     </span> <i class="fas fa-times"></i></div>
-                <div class="info-Alert Alerts"><span class="info-Alert"><i class="fas fa-exclamation info-Alert"></i>This is info
+                <div class="info-Alert Alerts"><span class="info-Alert"><i
+                            class="fas fa-exclamation info-Alert"></i>This is info
                         Alerts...!</span><i class="fas fa-times"></i></div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522Primary-Alert%2520Alerts%2522%253E%2520This%2520is%2520Primary%2520Alerts...%21%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Secondry-Alert%2520Alerts%2522%253EThis%2520is%2520Secondry%2520Alerts...%21%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Success-Alert%2520Alerts%2522%253E%253Cspan%2520class%253D%2522Success-Alert%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-check-circle%2520Success-Alert%2522%253E%253C%252Fi%253EThis%2520is%2520Success%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Alerts...%21%253C%252Fspan%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Warning-Alert%2520Alerts%2522%253E%253Cspan%2520class%253D%2522%2520Warning-Alert%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-exclamation-triangle%2520Warning-Alert%2522%253E%253C%252Fi%253EThis%2520is%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Warning%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Alerts...%21%253C%252Fspan%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Danger-Alert%2520Alerts%2522%253E%253Cspan%2520class%253D%2522Danger-Alert%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-skull-crossbones%2520Danger-Alert%2522%253E%253C%252Fi%253EThis%2520is%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Danger%2520Alerts...%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522info-Alert%2520Alerts%2522%253E%253Cspan%2520class%253D%2522info-Alert%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-exclamation%2520info-Alert%2522%253E%253C%252Fi%253EThis%2520is%2520info%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Alerts...%21%253C%252Fspan%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A"
+                    style="width: 1024px; height: 528px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
             <div class="Container">
                 <h2>Example of Alert with Dismiss </h2>
-                <div class="info-Alert Alerts"><span class="info-Alert"><i class="fas fa-exclamation info-Alert"></i>This is info
-                        Alerts...!</span ><i class="fas fa-times"></i></div>
+                <p>Alerts have cross icon to close the Alert <b>JavaScript Code</b> is below you can use it to make
+                    Alert box functional.</p>
+                <div id="close-Alert" class="info-Alert Alerts"><span class="info-Alert"><i
+                            class="fas fa-exclamation info-Alert"></i>This is info
+                        Alerts...!</span><button class="cut"><i class="fas fa-times"></i></button></div>
+                        <h2>Html For Functional Alert..</h2>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522info-Alert%2520Alerts%2522%253E%253Cspan%2520class%253D%2522info-Alert%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-exclamation%2520info-Alert%2522%253E%253C%252Fi%253EThis%2520is%2520info%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Alerts...%21%253C%252Fspan%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A"
+                    style="width: 829px; height: 249px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h2>JavaScript For Functional Alert..</h2>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520Close%2520%253D%2520document.querySelector%28%2522.cut%2522%29%253B%250Aconst%2520Alerts%2520%253D%2520document.getElementById%28%2522close-Alert%2522%29%250A%250A%250AClose.addEventListener%28%2522click%2522%252C%2520%28%29%253D%253E%257B%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520Alerts.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%2520%2520%2520%250A%2520%2520%257D%29"
+                    style="width: 585px; height: 342px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
 
         </main>

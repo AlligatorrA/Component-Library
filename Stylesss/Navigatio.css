@@ -13,7 +13,6 @@
 }
 .hero-header {
   display: flex;
-  align-items: center;
 }
 .nav-li {
   font: italic bold 20px/1 small-caption;
@@ -51,26 +50,25 @@
 .Dropdown-Nav {
   display: none;
 }
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 800px) {
+  .hero-header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
   .nav-bars {
     justify-content: space-between;
   }
   .nav-li {
+    padding: 5px 0px;
+    margin: 10px 0px;
+  }
+  .nav-ul {
+    display: flex;
+    flex-direction: column;
     display: none;
   }
-  .aria-hidden {
-    display: block;
-  }
-  .Dropdown-Nav {
-    width: 100vw;
-    margin-left: auto;
-    background-color: rgb(90, 90, 90);
-    border-radius: 5px;
-    font: italic bold 20px/1 small-caption;
-    padding: 5px 10px;
-    display: none;
-    z-index: 1000;
-  }
+  
   .Dropdown-NavLi {
     padding: 10px 20px;
     margin: 10px 2px;

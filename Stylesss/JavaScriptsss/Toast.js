@@ -1,16 +1,16 @@
-const cartBtn = document.querySelectorAll(".toast-add")
-const cartAdded = document.querySelectorAll(".toast-added");
+const addToast = document.getElementById("add-toast")
+const addedToast = document.getElementById("added-toast");
 
-cartBtn.addEventListener("click", addcartFunction)
+addToast.addEventListener("click", addcartFunction)
 
-cartAdded.style.display = "none"
+addedToast.style.display = "none"
 function addcartFunction(e) {
     e.preventDefault()
-    if (cartAdded.style.display === "none") {
-        cartAdded.style.display = "block"
+    if (addedToast.style.display === "none") {
+        addedToast.style.display = "block"
     }
     setTimeout(() => {
-        cartAdded.style.display = "none"
+        addedToast.style.display = "none"
     }, 3000);
 
 }

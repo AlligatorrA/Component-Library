@@ -1,17 +1,15 @@
-const tooglenavBtn = document.querySelector(".toogle-nav-Btn");
-const dropDownNav = document.querySelector(".Dropdown-Nav");
-const dropDownNavLi = document.querySelectorAll(".Dropdown-NavLi");
+const navbtn = document.querySelector("#nav-btn");
+const navul = document.querySelector(".nav-ul");
 
 
-tooglenavBtn.addEventListener("click", hidenDisplayFunc)
-searchLabelToggle.addEventListener("click", searchLabelToggleFunc)
+navbtn.addEventListener("click", hidenDisplayFunc)
 
 
 function hidenDisplayFunc() {
-    if (dropDownNav.style.display === "block") {
-        dropDownNav.style.display = "none"
+    if (navul.style.display === "block") {
+        navul.style.display = "none"
     } else {
-        dropDownNav.style.display = "block"
+        navul.style.display = "block"
     }
 
 

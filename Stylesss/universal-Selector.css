@@ -43,6 +43,10 @@ h1 {
 h2 {
   padding: 8px;
 }
+p{
+  padding: 25px 0;
+  font-size: larger;
+}
 
 main {
   padding: 0 15px;
@@ -58,4 +62,9 @@ main {
    /* background-color: blue;  */
   background-color: var(--primary-color); 
   border-radius: 10px; 
+}
+@media screen and (max-width:800px) {
+  *{
+    font-size: small;
+  }
 }

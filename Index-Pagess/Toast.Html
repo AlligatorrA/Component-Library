@@ -15,26 +15,21 @@
 <body>
     <div class="main-Container">
         <header class="homePage-head hero-header">
+
             <a href="/"><img class="Sq-Image-class hzt-img" src="/Imagess/dark_phillips.jpg" alt=""></a>
+            <a id="nav-btn" class="marginLeft round-Av sm-size-img bd-colr Primary-Container aria-hidden nav-arrow "
+                href="#"><i class="fa-solid fa-bars"></i></a>
             <nav class="hero-header">
                 <ul class="nav-ul">
                     <li class="nav-li"><a class="Pg-links font-Color" href="/">Home</a> </li>
                     <li class="nav-li active"><a class="Pg-links font-Color"
                             href="/documentation.html">Documentation</a> </li>
-                    <li class="nav-li"><a class="Pg-links font-Color" href="">Github</a> </li>
+                    <li class="nav-li"><a class="Pg-links font-Color"
+                            href="https://github.com/AlligatorrA/Component-Library.git">Github</a> </li>
                 </ul>
             </nav>
-            <ul class="nav-ul marginLeft ">
 
-                <li class="nav-li aria-hidden toogle-nav-Btn"><i class="fas fa-bars"></i></li>
-            </ul>
         </header>
-        <nav class="Dropdown-Nav">
-            <li class=" Dropdown-NavLi"><a class="Pg-links" href="/">Home</a> </li>
-            <li class=" Dropdown-NavLi"><a class="Pg-links active" href="/documentation.html">Documentation</a> </li>
-            <li class=" Dropdown-NavLi"><a class="Pg-links" href="">Github</a> </li>
-
-        </nav>
         <aside class="Documentation-aside AsideClass">
             <div class="starter-Component">
                 <h2>Get Started</h2>
@@ -63,25 +58,43 @@
                             href="/Index-Pagess/Input.html">Input</a> </li>
                     <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
                             href="/Index-Pagess/Navigation.html">Navigation</a> </li>
+                            <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
+                                href="/Index-Pagess/Forms.html">Forms</a> </li>
                     <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
                             href="/Index-Pagess/ResponsiveImg.html">Responsive-Images</a> </li>
                 </ul>
             </nav>
         </aside>
-        <main class="Documentation-main">
+        <main class="Documentation-main Overflow-box">
             <header id="top-header">
                 <button class="drawer-btn aria-hidden"><i class="fas fa-chevron-left"></i> </button>
             </header>
-
-            <div class="Container">
+            <h1>Toast</h1>
+            <p>Toast mostly used to show the pop-up feedback like "Added to card" or "saved" etc...</p>
+            <h2>Example of Toast</h2>
+            <p>Here are few examples of toast. to use the toast use the code snippet given below.-</p>
+            <div class="Container ">
                 <a class="toast-add">Add to toast <i class="fas fa-times marginLeft"></i></a>
                 <!-- <span class="toast-added">Added to cart</span> -->
-                <a class="toast-add">Saved <i class="fas fa-times marginLeft"></i></a>
-                <span class="toast-added">Saved!</span>
+                <a class="toast-add">Save <i class="fas fa-times marginLeft"></i></a>
                 <a class="toast-add">Failed! Try it Again.<i class="fas fa-times marginLeft"></i></a>
-                <span class="toast-added">Added to cart</span>
             </div>
-
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522Container%2520bd-colr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522toast-add%2522%253EAdd%2520to%2520toast%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520marginLeft%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520%253Cspan%2520class%253D%2522toast-added%2522%253EAdded%2520to%2520cart%253C%252Fspan%253E%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522toast-add%2522%253ESaved%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520marginLeft%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522toast-added%2522%253ESaved%21%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522toast-add%2522%253EFailed%21%2520Try%2520it%2520Again.%253Ci%2520class%253D%2522fas%2520fa-times%2520marginLeft%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522toast-added%2522%253EAdded%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 886px; height: 376px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <h2>Example of Functioning Toast</h2>
+            <p>Here is an examples of Functional toast. JavaScript Code is also available just below the html code.</p>
+            <div class="Container ">
+                <a id="add-toast" class="toast-add">Add to Card <i class="fas fa-times marginLeft"></i></a>
+                <span id="added-toast" class="toast-added toast-add">Added to cart</span>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522Container%2520bd-colr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520id%253D%2522add-toast%2522%2520class%253D%2522toast-add%2522%253EAdd%2520to%2520Card%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520marginLeft%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520id%253D%2522added-toast%2522%2520class%253D%2522toast-added%2520toast-add%2522%253EAdded%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 886px; height: 302px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
         </main>
         <a class="round-Av sm-size-img bd-colr Primary-Container top-arrow" href="#top-header">&#8682;
         </a>
