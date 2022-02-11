@@ -57,7 +57,7 @@
                     <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
                             href="/Index-Pagess//Toast.Html">Toast</a> </li>
                     <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
-                            href="/Index-Pagess/Input.html">Sliders</a> </li>
+                            href="/Index-Pagess/Input.html">input</a> </li>
                     <li class="Drawer-List"><a class="Drawer-Side-Link font-Color"
                             href="/Index-Pagess/Navigation.html">Navigation</a> </li>
                     <li class="Drawer-List active"><a class="Drawer-Side-Link font-Color"
@@ -70,18 +70,103 @@
             </nav>
         </aside>
         <main class="Documentation-main ">
+            <header id="top-header">
+                <button class="drawer-btn aria-hidden"><i class="fas fa-chevron-left"></i> </button>
+            </header>
+            <div class="mainLog">
+                <h1>Form Components</h1>
+                <h2>Example of Active Form</h2>
+                <div class="InputBody bd-colr">
+                    <h3>Enter your name </h3>
+                    <input class="input-box" type="text" required placeholder="john deo">
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522InputBody%2520bd-colr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EEnter%2520your%2520name%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520required%2520placeholder%253D%2522john%2520deo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 889px; height: 249px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="Spacer"></div>
+                <div class="Spacer"></div>
+                <div class="InputBody bd-colr">
+                    <h3>Example Textarea</h3>
+                    <textarea name="" id="" cols="70" placeholder="Enter your Message" rows="10"></textarea>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522InputBody%2520bd-colr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EExample%2520Textarea%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520name%253D%2522%2522%2520id%253D%2522%2522%2520cols%253D%252270%2522%2520placeholder%253D%2522Enter%2520your%2520Message%2522%2520rows%253D%252210%2522%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 1024px; height: 267px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="Spacer"></div>
+                <div class="Spacer"></div>
+                <h2>Example of Disabled input </h2>
+                <div class="InputBody bd-colr">
+                    <input class="input-box" type="text" disabled placeholder="Disabled input type Read only">
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522InputBody%2520bd-colr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EExample%2520of%2520Disabled%2520input%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520disabled%2520placeholder%253D%2522Disabled%2520input%2520type%2520Read%2520only%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 1024px; height: 267px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="Spacer"></div>
+                <div class="Spacer"></div>
+                <h2>Example of Email and Password form </h2>
+                <div class="InputBody bd-colr">
+                    <label for="Email">Enter Your Email
+                        <input class="input-box" type="email" required placeholder="Enter Your Email">
+                    </label> <br>
+                    <label for="Password">Enter Your Password
+                        <input class="input-box" type="password" placeholder="password will be in encrypted form">
+                    </label>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522InputBody%2520bd-colr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EExample%2520of%2520Email%2520and%2520Password%2520form%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Email%2522%253EEnter%2520Your%2520Email%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522email%2522%2520required%2520placeholder%253D%2522Enter%2520Your%2520Email%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%2520%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Spacer%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Spacer%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Password%2522%253EEnter%2520Your%2520Password%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522password%2520will%2520be%2520in%2520encrypted%2520form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 1024px; height: 398px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="Spacer"></div>
+                <div class="Spacer"></div>
+                <div class="Spacer"></div>
+                <h1>Example of Form</h1>
+                <form class="Form-box bd-colr">
+                    <h1>Form</h1>
+                    <div class="Grid-Container-2">
+                        <div class="Grid-box3"><label for="name">Enter Your Name
+                                <input class="input-box" type="text" required placeholder="john deo">
+                            </label></div>
+                        <div class="Grid-box4"> <label for="Email">Enter Your Email
+                                <input class="input-box" type="email" required placeholder="Enter Your Email">
+                            </label></div>
+                        <div class="Grid-box5"><label for="Password">Enter Your Password
+                                <input class="input-box" type="password"
+                                    placeholder="password will be in encrypted form">
+                                <input type="checkbox" required>You Accept The term and Condition
+                            </label></div>
+                        <div class="Grid-box6"> <label for="Address">Enter Your Address
+                                <input class="input-box" type="text" placeholder="Enter Your Address">
+                            </label></div>
+                    </div>
+                    <div class="Grid-Container">
 
-            <div class="mainLog Overflow-box">
-                <label for="Name"> Enter Your name
-                    <input id="Name" type="text" placeholder="Enter Your name">
-                </label>
+                        <div class="Grid-box1"><label for="submit"> <textarea name="" id="" cols="70"
+                                    placeholder="Enter your Message" rows="10"></textarea></div>
+                        <div class="Grid-box6"><label for="submit"><button type="submit"
+                                    class="btn Success-btn">Submit</button></div>
+                    </div>
+                </form>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2855%2C61%2C56%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522Form-box%2520bd-colr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EForm%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Grid-Container-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Grid-box3%2522%253E%253Clabel%2520for%253D%2522name%2522%253EEnter%2520Your%2520Name%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520required%2520placeholder%253D%2522john%2520deo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Grid-box4%2522%253E%2520%253Clabel%2520for%253D%2522Email%2522%253EEnter%2520Your%2520Email%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522email%2522%2520required%2520placeholder%253D%2522Enter%2520Your%2520Email%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Grid-box5%2522%253E%253Clabel%2520for%253D%2522Password%2522%253EEnter%2520Your%2520Password%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522password%2520will%2520be%2520in%2520encrypted%2520form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520required%253EYou%2520Accept%2520The%2520term%2520and%2520Condition%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Grid-box6%2522%253E%2520%253Clabel%2520for%253D%2522Address%2522%253EEnter%2520Your%2520Address%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520Your%2520Address%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Grid-Container%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Grid-box1%2522%253E%253Clabel%2520for%253D%2522submit%2522%253E%2520%253Ctextarea%2520name%253D%2522%2522%2520id%253D%2522%2522%2520cols%253D%252270%2522%2520placeholder%253D%2522Enter%2520your%2520Message%2522%2520rows%253D%252210%2522%253E%253C%252Ftextarea%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Grid-box6%2522%253E%253Clabel%2520for%253D%2522submit%2522%253E%253Cbutton%2520type%253D%2522submit%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522btn%2520Success-btn%2522%253ESubmit%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E"
+                    style="width: 1024px; height: 677px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
+
         </main>
         <a class="round-Av sm-size-img bd-colr Primary-Container top-arrow" href="#top-header">&#8682;
         </a>
         <footer class="homePage-foot Primary-Container">
             <a class="zoom-hov" href="https://github.com/AlligatorrA"> <i class="fab fa-github fa-2x"></i> </a>
-            <a class="zoom-hov" href="https://www.linkedin.com/in/anand-raj-b10599171/"> <i class="fab fa-linkedin-in fa-2x"></i> </a>
+            <a class="zoom-hov" href="https://www.linkedin.com/in/anand-raj-b10599171/"> <i
+                    class="fab fa-linkedin-in fa-2x"></i> </a>
             <a class="zoom-hov" href="https://twitter.com/Aryakkhauj"> <i class="fab fa-twitter fa-2x"></i> </a>
         </footer>
 

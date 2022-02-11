@@ -5,8 +5,9 @@ padding: 10px;
 margin: 10px;
 }
 .input-box{
-    padding: 1em 0;
-    width: 40rem;
+    padding: .5em 0;
+    margin: 10px;
+    width: 30VW;
     border-radius: 3px;
     color: black;
     font-size: larger;
