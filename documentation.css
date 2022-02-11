@@ -36,7 +36,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .font-Color {
-  font-family: "Callie Chalk Font", sans-serif;
+  font-family: "Callie Chalk Font", ;
   color: var(--primary-textColor);
   font-size: 15px;
 }
@@ -51,7 +51,7 @@
   background-color: var(--Secondry-backgroundColor);
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(10, 1fr);
-  font-family: "Callie Chalk Font", sans-serif;
+  font-family: "Callie Chalk Font", ;
 
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
