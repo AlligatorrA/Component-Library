@@ -13,10 +13,9 @@
   margin: 10px 0;
   padding: 10px;
 }
-.Overflow-box{
+.Overflow-box {
   overflow: scroll;
   overflow-x: hidden;
-  
 }
 .Primary-Container {
   display: flex;
@@ -33,13 +32,12 @@
 .alert {
   border: 1px solid black transparent;
   border-radius: 5px;
-} 
+}
 .aria-hidden {
   display: none;
 }
 @media screen and (max-width: 800px) {
-  .aria-hidden 
-  {
+  .aria-hidden {
     display: flex;
   }
 }
@@ -48,45 +46,51 @@
   color: rgb(114, 112, 112);
   cursor: pointer;
 }
-.fab{
+.fab {
   padding: 0 5px 0 20px;
   color: rgb(255, 255, 255);
-  cursor: pointer; 
-
+  cursor: pointer;
 }
-.marginLeft{
-   margin-left: auto;
+.marginLeft {
+  margin-left: auto;
 }
-.active{
+.active {
   border-bottom: 3px solid var(--primary-color);
 }
-.active:focus{
+.active:focus {
   color: var(--primary-color);
 }
-.fa-bars{
+.fa-bars {
   color: var(--primary-backgroundColor);
 }
-.bd-colr{
+.bd-colr {
   border: 2px solid var(--primary-textColor);
-  box-shadow: 3px 4px 8px 4px rgba(224, 224, 224, 0.2), 4px 6px 20px 5px rgba(255, 253, 253, 0.19)
+  box-shadow: 3px 4px 8px 4px rgba(224, 224, 224, 0.2),
+    4px 6px 20px 5px rgba(255, 253, 253, 0.19);
 }
-.top-arrow{
-position: absolute;
-bottom: 9rem;
-right: 2rem;
+.top-arrow {
+  position: absolute;
+  bottom: 9rem;
+  right: 2rem;
 }
-.aside-arrow{
-position: absolute;
-top: 9rem;
-right: 2rem;
+.aside-arrow {
+  position: absolute;
+  top: 9rem;
+  right: 2rem;
 }
-.nav-arrow{
-position: absolute;
-top: 1rem;
-right: 2rem;
+.nav-arrow {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
 }
-.starter-header{
+.starter-header {
   font-size: 2em;
   font-weight: 900;
   font-family: "Callie Chalk Font", sans-serif;
+}
+@media screen and (max-width: 400px) {
+  iframe {
+    max-width: 400px;
+    height: auto;
+  }
 }
